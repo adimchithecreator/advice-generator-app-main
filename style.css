@@ -8,6 +8,7 @@ margin: 150px auto;
 padding: 15px;
 border-radius: 15px;
 font-family: 'Manrope', sans-serif;
+max-height: 300px;
 }
 h1{
     color:  hsl(150, 100%, 66%);
