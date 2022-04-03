@@ -4,7 +4,7 @@ function displayAdvice(response) {
    advice.innerHTML = response.data.slip.advice;
    adviceId.innerHTML = response.data.slip.id;
 }
-function getAdvice() {
+function getAdvice(params) {
   let url = "https://api.adviceslip.com/advice";
   axios.get(url).then(displayAdvice)
 }
