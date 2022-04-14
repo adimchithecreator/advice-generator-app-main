@@ -62,6 +62,8 @@ let getAdviceButton= document.querySelector("#die");
 getAdviceButton.addEventListener("click",getAdvice);
 }
 ```
+SCREENSHOT
+![advicee](https://user-images.githubusercontent.com/74629257/163431815-65408950-b0ce-460f-8005-3bdaf32938bc.png)
 
 
 ### Continued development
