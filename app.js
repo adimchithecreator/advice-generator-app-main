@@ -12,3 +12,5 @@ function getAdvice(params) {
 
 let getAdviceButton= document.querySelector("#die");
 getAdviceButton.addEventListener("click",getAdvice);
+
+getAdvice();
